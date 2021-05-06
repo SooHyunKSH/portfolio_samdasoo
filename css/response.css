@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1450px) {
+  #section_1 .text_box_1 {
+    left: 5vw;
+  }
+  #section_1 .text_box_3 {
+    right: 30vw;
+  }
+  #section_1 .circle2 {
+    right: 10vw;
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1201) {
+  html,
+  body {
+    font-size: 18px;
+  }
+  #section_1 .text_box_1 {
+    left: 5vw;
+  }
+  #section_1 .text_box_3 {
+    right: 30vw;
+  }
+  #section_1 .circle2 {
+    right: 10vw;
+  }
+  #section_4 .sns_contents > div {
+    width: 18rem;
+    height: 18rem;
+    margin: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+  #section_1 .text_box_1 {
+    left: 5vw;
+  }
+  #section_1 .text_box_3 {
+    right: 30vw;
+  }
+  #section_1 .circle2 {
+    right: 10vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+  #section_1 .text_box_1 {
+    left: 5vw;
+  }
+  #section_1 .circle1 {
+    display: none;
+  }
+  #section_1 .text_box_3 {
+    right: 20vw;
+  }
+  #section_1 .circle2 {
+    right: 5vw;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+  #section_1 .text_box_1 {
+    left: 5vw;
+  }
+  #section_1 .circle1 {
+    display: none;
+  }
+  #section_1 .text_box_3 {
+    right: 20vw;
+  }
+  #section_1 .circle2 {
+    right: 5vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+  header {
+    position: relative;
+    height: 8vw;
+    padding: 0;
+  }
+  header .logo img {
+    width: 10rem;
+    padding: 0 1rem;
+  }
+
+  header #gnb {
+    display: none;
+  }
+  #section_1 .text_box_1 {
+    left: 2vw;
+    opacity: 1;
+  }
+  #section_1 .circle1 {
+    display: none;
+  }
+
+  #section_1 .natural {
+    left: 55%;
+  }
+
+  #section_1 .text_box_3 {
+    right: 23vw;
+  }
+
+  #section_1 .water_img {
+    left: 5vw;
+  }
+
+  #section_1 .circle2 {
+    right: 5vw;
+  }
+  #section_2 ul li p strong {
+    font-size: 2rem;
+  }
+
+  #section_4 .sns_contents > div {
+    width: 33%;
+    height: 300px;
+  }
+
+  #section_4 .sns_contents div:nth-child(4) {
+    display: none;
+  }
+  .tablet {
+    display: block;
+  }
+}
