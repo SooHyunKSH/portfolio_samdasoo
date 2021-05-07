@@ -77,7 +77,6 @@ header.gnb_bg #gnb ul li:hover a {
   width: 8vw;
   height: 8vw;
   background-color: #29b8f5;
-  margin: 0;
   left: 92vw;
   top: 0;
   z-index: 50;
@@ -94,6 +93,7 @@ input[id="menuicon"] + label {
   height: 25px;
   position: relative;
   cursor: pointer;
+  margin: 0;
   top: 50%;
   left: 50%;
   transform: translate(-50% ,-50%);

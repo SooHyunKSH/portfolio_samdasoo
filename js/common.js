@@ -66,4 +66,9 @@ $(function(){
     }else{
       $(".logo").html("<img src='./img/main_logo.png' alt='main logo'>");
     }
+
+    /*subpage label background color 바꾸기*/
+    $(".btn label").on("click",function(){
+      $("section input").attr("checked","checked")
+    })
 })
